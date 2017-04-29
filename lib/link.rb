@@ -3,6 +3,7 @@
 # The sole component in a linked list
 class Link
   attr_reader :value, :next
+  attr_writer :next
 
   def initialize(v, n = nil)
     @value = v
